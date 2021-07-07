@@ -68,6 +68,10 @@ printResult(add, 2, 3)
 printResult(sub,  2, 3)
 printResult(div, 2, 3)
 printResult(mult, 2, 3)
+printResult(*, 22, 33)
+printResult(/, 22, 33)
+printResult(-, 22, 33)
+printResult(+, 22, 33)
 
 //: [Next: Exercicio4](@next)
 
