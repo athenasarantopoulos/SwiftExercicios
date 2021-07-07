@@ -37,4 +37,37 @@ print(operacoes(number1: 5.2, number2: 5.2, operador: "*"))
 print(operacoes(number1: 224.90, number2: 5.0, operador: "/"))
 
 
+
+func add(number1:Int, number2:Int) ->Int{
+    number1 + number2
+}
+
+
+func sub(number1:Int, number2:Int) ->Int{
+    number1 - number2
+}
+
+
+func mult(number1:Int, number2:Int) ->Int{
+    number1 * number2
+}
+
+
+
+func div(number1:Int, number2:Int) ->Int{
+    number1 / number2
+}
+
+
+func printResult(_ operate: (Int,Int) -> Int, _ a : Int, _ b: Int){
+    let result = operate(a,b)
+    print(result)
+}
+
+printResult(add, 2, 3)
+printResult(sub,  2, 3)
+printResult(div, 2, 3)
+printResult(mult, 2, 3)
+
 //: [Next: Exercicio4](@next)
+

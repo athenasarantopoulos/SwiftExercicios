@@ -33,9 +33,6 @@ for mes in Meses.allCases {
     switch mes {
     case .Janeiro:
         print("O mês \(mes) possui 1 feriado")
-        
-    case .Janeiro:
-        print("O mês \(mes) possui 1 feriado")
     case .Fevereiro:
         print("O mês \(mes) possui 2 feriado")
     case .Março:
